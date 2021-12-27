@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('../img/leaves.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),url('../img/leaves.jpg');
     background-size: cover;
     background-position: center;
     font-family: 'roboto', sans-serif;
@@ -43,7 +43,7 @@ input, .submit-btn {
     display: block;
     margin: 20px auto;
     border-radius: 5px;
-    background: rgba(250, 250, 250, 0.3);
+    background: linear-gradient(to right, #ff10609c, #fd8f128e);
     border: none;
     color: #fff;
     padding: 15px;
@@ -55,12 +55,12 @@ input::placeholder{
 }
 
 input:focus, .submit-btn:hover {
-    background: #fff;
-    color: black;
+    background: linear-gradient(to right, #ff105f, #fd8f12);
+    color: #fff;
 }
 
 input:focus::placeholder {
-    color: black;
+    color: #fff;
 }
 
 .submit-btn {
@@ -73,13 +73,13 @@ input:focus::placeholder {
 .link {
     text-align: center;
     text-transform: capitalize;
-    color: rgba(250, 250, 250, 0.9);
+    color: rgba(250, 250, 250, 0.8);
     display: block;
     margin: 30px auto;
 }
 
 .link:hover {
-    color: #fff;
+    color: #fd8f12;
 }
 
 .alert-box {
