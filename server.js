@@ -3,6 +3,8 @@ const path = require('path'); // find HTML, CSS files location
 const bodyParser = require('body-parser'); // body-parser for sending/receiving data
 const knex = require('knex'); // Knex for database access
 
+const PORT = process.env.PORT || 3000
+
 // connect to database
 const db = knex({
     client: 'pg',
@@ -81,6 +83,6 @@ app.post('/login-user', (req, res) => {
     })
 })
 
-app.listen(3000, (req, res) => {
-    console.log('Listening on port 3000...')
+app.listen(PORT, (req, res) => {
+    console.log('Listening on port...')
 })
