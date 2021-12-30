@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express.js": "^1.0.0",
+    "knex": "^0.95.15",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1"
+  }
+}
