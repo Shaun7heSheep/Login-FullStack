@@ -7,10 +7,10 @@ const knex = require('knex'); // Knex for database access
 const db = knex({
     client: 'pg',
     connection: {
-        host: '127.0.0.1', // db host address
-        user: 'postgres', // psql user name
-        password: 'Son2452001#', // psql password
-        database: 'loginform' // database name
+        host: 'ec2-34-236-87-247.compute-1.amazonaws.com', // db host address
+        user: 'rhplofohwybvjr', // psql user name
+        password: '2216bbfa00c44b60c7109484e300073babab84e43d88564a3393846a266f14da', // psql password
+        database: 'dbo8974ecd98gp' // database name
     }
 })
 
