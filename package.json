@@ -5,5 +5,22 @@
     "knex": "^0.95.15",
     "nodemon": "^2.0.15",
     "pg": "^8.7.1"
-  }
+  },
+  "name": "loginform",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaun7heSheep/Login-FullStack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shaun7heSheep/Login-FullStack/issues"
+  },
+  "homepage": "https://github.com/Shaun7heSheep/Login-FullStack#readme",
+  "description": ""
 }
