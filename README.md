@@ -1,3 +1,7 @@
+# UPDATE: Deployment to Heroku is not working as free database is no longer supported:<br/>
+"Free Heroku Postgres, free Heroku Data for Redis®, and free Heroku Dynos are no longer available.
+If you have apps using these resources, you must upgrade to our new low-cost or other paid plans to ensure your apps continue to run and retain your data. To recover your data, contact Heroku Support as soon as possible. Eligible students can apply for platform credits through our Heroku for GitHub Students program.  Learn more"
+
 # Login-FullStack
 Login/Register feature. Both Front-end and Back-end <br/>
 <br/>
